@@ -11,16 +11,12 @@
         <h3>access records</h3>
         <table border="3px">
             <tr>
-                <th>topic_name</th>
                 <th>name</th>
-                <th>url</th>
                 <th>date</th>
             </tr>
             {% for a in arecords %}
             <tr>
-                <td>{{ a.topic_name }}</td>
                 <td>{{ a.name }}</td>
-                <td>{{ a.url }}</td>
                 <td>{{ a.date }}</td>
             </tr>
             {% endfor %}
